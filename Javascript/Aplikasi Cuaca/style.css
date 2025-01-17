@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #b3e5fc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #0288d1; 
+}
+
+.weather {
+    margin-bottom: 20px;
+}
+
+.weather_search {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #0288d1; 
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.weather_details {
+    margin-bottom: 20px;
+}
+
+.weather_city {
+    font-size: 2em;
+    color: #0288d1; 
+}
+
+.weather_day {
+    font-size: 1.2em;
+    color: #424242; 
+}
+
+.weather_current {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather_indicator {
+    font-size: 1em;
+    color: #0288d1; 
+}
+
+.weather_image {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.weather_temperature {
+    font-size: 3em;
+    color: #0288d1; 
+}
+
+.weather_forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather_forecast_item {
+    width: 18%;
+    background-color: #e1f5fe; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.weather_forecast_day {
+    font-size: 1.1em;
+    color: #0288d1; 
+}
+
+.weather_forecast_icon {
+    width: 50px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.weather_forecast_temperature {
+    font-size: 1.5em;
+    color: #0288d1; 
+}
+
+.search_button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #0288d1; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.search_button:hover {
+    background-color: #0210d1; 
+}
+
+.search_button:active {
+    background-color: #0244d1; 
+}
